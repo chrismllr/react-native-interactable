@@ -19,9 +19,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node ./node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "postinstall": "ln -sf lib/android . && ln -sf lib/ios .",
-    "postinstall:next": "node ./bin/postinstall.js"
+    "test": "jest"
   },
   "dependencies": {
     "lnf": "^1.3.8"

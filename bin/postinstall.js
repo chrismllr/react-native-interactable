@@ -1,16 +1,20 @@
-const Lnf = require('lnf');
-const fs = require('fs');
+// Lnf('.', __dirname + '../lib/android', err => {
+//   if (err) {
+//     console.error(err);
+//     process.exit(1);
+//   }  
+// });
 
-Lnf.sync('lib/ios', __dirname + '..', err => {
-  if (err) {
-    console.error(err);
-    process.exit(1);
-  }  
-})
+// Lnf(__dirname + '../', __dirname + '/../lib/ios/', 'dir', err => {
+//   if (err) {
+//     console.error(err);
+//     process.exit(1);
+//   }
+// });
 
-Lnf.sync('lib/android', __dirname + '..', err => {
-  if (err) {
-    console.error(err);
-    process.exit(1);
-  }  
-})
+// Lnf(__dirname + '../', __dirname + '/../lib/android/', 'dir', err => {
+//   if (err) {
+//     console.error(err);
+//     process.exit(1);
+//   }
+// });
